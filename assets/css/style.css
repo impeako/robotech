@@ -1277,3 +1277,36 @@ section {
   list-style: none;
   color: white;
 }
+
+/*photo presentation*/
+.presentation {
+  width: 80%;
+  margin: auto;
+  padding: auto;
+  padding-top: 10vh;
+  align-items: center;
+  text-align: center;
+}
+.descrip{
+  padding-top: 10vh;
+}
+.presentation h3 {
+  text-align: center;
+  font-family:"Poppins", sans-serif ;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding: 3vh;
+}
+.special .des-img img {
+  width: 25vw;
+}
+.other .description-img img {
+  width: 50%;
+  float: right;
+}
+.description-img p {
+  width: 45%;
+}
