@@ -453,12 +453,6 @@ section {
   padding: 80px 0;
 }
 
-#about .about-container .background {
-  min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
-  margin-bottom: 10px;
-}
-
 #about .about-container .content {
   background: #fff;
 }
@@ -468,8 +462,15 @@ section {
   font-weight: 700;
   font-size: 32px;
 }
+.background img {
+  width: 700px;
+  float: right;
+}
 
 @media (max-width: 768px) {
+  .background img {
+    width: 400px;
+  }
   #about .about-container .title {
     padding-top: 15px;
   }
