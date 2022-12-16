@@ -86,24 +86,10 @@ h6 {
   background: rgba(52, 59, 64, 0.9);
 }
 
-#header #logo h1 {
-  font-size: 32px;
-  margin: 0;
-  line-height: 1;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header #logo h1 a,
-#header #logo h1 a:hover {
-  color: #fff;
-}
-
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 30vh;
 }
 
 #header.header-transparent {
@@ -282,7 +268,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/cover.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -625,7 +611,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img-set/call.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1157,7 +1143,7 @@ section {
 }
 
 .photo-tags a:hover, .photo-tags a:focus {
-  color: #e37544;
+  color: #338dce;
 }
 
 .photo-details p {
