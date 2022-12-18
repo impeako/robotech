@@ -341,7 +341,7 @@ h6 {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 1s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
@@ -666,7 +666,6 @@ section {
   background: #f7f7f7;
   padding: 80px 0;
 }
-
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -725,15 +724,15 @@ section {
   padding: 15px 20px;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-family: "Open Sans", sans-serif;
+  color: white;
   font-size: 18px;
-  color: #00FFFF;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
-  font-family: 'Courier New', monospace;
-  color: #560319;
+  font-family: "Open Sans", sans-serif;
+  color: white;
   font-size: 14px;
   margin-bottom: 0;
 }
