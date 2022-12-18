@@ -268,7 +268,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/cover.jpg) top center;
+  background: url(../img/img-set/cover-2.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -388,7 +388,7 @@ section {
 
 .breadcrumbs h2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -1166,14 +1166,11 @@ section {
 
 /*photo presentation*/
 #presentation {
-  margin: auto;
-  padding: auto;
-  padding-top: 10vh;
   align-items: center;
   text-align: center;
 }
 .descrip{
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 #presentation h3 {
   text-align: center;
@@ -1206,6 +1203,13 @@ section {
   justify-content: center;
   gap: 5rem;
 }
+.test p {
+  text-align: left;
+}
+ .titlechoose {
+  float: left;
+  margin-left: 10%;
+}
 }
 @media (max-width: 768px) {
   .other .description-img img{
@@ -1223,4 +1227,9 @@ section {
 .colored {
   background-color: #f7f7f7;
   padding-bottom: 5vh;
+}
+/* fsm-robots */
+.portfolio-info .cahier{
+  margin-top: 20px;
+  font-size: 0.7vw;
 }
